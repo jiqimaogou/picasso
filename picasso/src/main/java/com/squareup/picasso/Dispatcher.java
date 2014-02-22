@@ -39,7 +39,7 @@ import static android.net.ConnectivityManager.CONNECTIVITY_ACTION;
 import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 import static com.squareup.picasso.BitmapHunter.forRequest;
 
-class Dispatcher {
+public class Dispatcher {
   private static final int RETRY_DELAY = 500;
   private static final int AIRPLANE_MODE_ON = 1;
   private static final int AIRPLANE_MODE_OFF = 0;

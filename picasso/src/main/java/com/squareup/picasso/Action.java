@@ -20,7 +20,7 @@ import android.graphics.drawable.Drawable;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 
-abstract class Action<T> {
+public abstract class Action<T> {
   static class RequestWeakReference<T> extends WeakReference<T> {
     final Action action;
 

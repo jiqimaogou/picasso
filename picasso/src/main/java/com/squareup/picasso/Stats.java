@@ -23,7 +23,7 @@ import android.os.Message;
 
 import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 
-class Stats {
+public class Stats {
   private static final int CACHE_HIT = 0;
   private static final int CACHE_MISS = 1;
   private static final int BITMAP_DECODE_FINISHED = 2;
